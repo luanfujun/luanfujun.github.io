@@ -1,0 +1,138 @@
+<HTML>
+<HEAD>
+<TITLE>Deep Photo Style Transfer</TITLE>
+<link rel=StyleSheet style type="text/css" href="../../index.css">
+<link rel="icon" href="../images/char.png">
+</HEAD>
+
+<div class="MainContainer">
+<table width="800" border="0">
+	<tr><td align="center"><p class=banner> CVPR 2017 </p></td></tr>
+    <tr><td align="center"><h1>Deep Photo Style Transfer</h1></td></tr>
+ 
+   	<tr><td align="center">
+   		<a href=https://www.cs.cornell.edu/~fujun/>Fujun Luan</a><sup>1</sup>&nbsp;&nbsp;
+        <a href=http://people.csail.mit.edu/sparis/>Sylvain Paris</a><sup>2</sup>&nbsp;&nbsp;
+        <a href=https://research.adobe.com/person/eli-shechtman/>Eli Shechtman</a><sup>2</sup>&nbsp;&nbsp;
+        <a href=https://www.cs.cornell.edu/~kb/>Kavita Bala</a><sup>1</sup>
+   	</td></tr>
+
+   	<tr><td align="center">
+   		<sup>1</sup><a href=https://cornell.edu/>Cornell University</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <sup>2</sup><a href=https://adobe.com>Adobe</a>
+   	</td></tr>
+
+   	<tr><td align="center">
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/input/in3.png" height='174' width='260'>
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/style/tar3.png" height='174' width='260'>
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/final_results/best3_t_1000.png" height='174' width='260'>
+   	</td></tr>
+   	<tr><td align="center">
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/input/in13.png" height='174' width='260'>
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/style/tar13.png" height='174' width='260'>
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/final_results/best13_t_1000.png" height='174' width='260'>
+   	</td></tr>
+   	<tr><td align="center">
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/input/in39.png" height='174' width='260'>
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/style/tar39.png" height='174' width='260'>
+   		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/final_results/best39_t_1000.png" height='174' width='260'>
+   	</td></tr>
+   	<tr>
+   	<td>Given an input image (first column), and a reference image (second column), our approach transfers the style of the reference image onto the input image while preserving the photorealism (third column).</td>
+   	</tr>
+
+   	<td height="40" class="Space"> 
+
+   	<tr>
+   	<td align="center">
+			[ <a href="style-cvpr17.pdf">Paper</a> ] &nbsp;&nbsp;&nbsp;
+			[ <a href="style-cvpr17-supp.pdf">Supplementary</a> ]  &nbsp;&nbsp;&nbsp;
+			[ <a href="https://arxiv.org/abs/1703.07511">ArXiv</a> ] &nbsp;&nbsp;&nbsp;
+			[ <a href="https://github.com/luanfujun/deep-photo-styletransfer">Code & Data</a> ] &nbsp;&nbsp;&nbsp;
+			[ <a href="deepstyle17-bib.txt">BibTex</a> ] &nbsp;&nbsp;&nbsp;
+			[ <a href="#press">Press</a> ] &nbsp;&nbsp;&nbsp;
+			[ <a href="https://www.youtube.com/watch?v=HTUxsrO-P_8">Two Minute Papers</a> ]
+   	</td>
+   	</tr>
+
+	<td height="40" class="Space"> 
+
+	<tr>
+	<td>
+	<h2>Publication</h2>
+		Fujun Luan, Sylvain Paris, Eli Shechtman, and Kavita Bala, Deep Photo Style Transfer, to appear in CVPR 2017
+		<div>Paper: High-resolution <a href="https://www.dropbox.com/s/bu23dyat4oefeqy/style-cvpr17-highres.pdf?dl=0">PDF</a> (59 MB) | Low-resolution <a href="style-cvpr17.pdf">PDF</a> (6.6 MB) </div>
+	</td>
+	</tr>
+
+	<td height="40" class="Space"> 
+
+	<tr>
+	<td>
+	<h2>Abstract</h2>
+		This paper introduces a deep-learning approach to photographic style transfer that handles a large variety of image content while faithfully transferring the reference style. Our approach builds upon the recent work on painterly transfer that separates style from the content of an image by considering different layers of a neural network. However, as is, this approach is not suitable for photorealistic style transfer. Even when both the input and reference images are photographs, the output still exhibits distortions reminiscent of a painting. Our contribution is to constrain the transformation from the input to the output to be locally affine in colorspace, and to express this constraint as a custom fully differentiable energy term. We show that this approach successfully suppresses distortion and yields satisfying photorealistic style transfers in a broad variety of scenarios, including transfer of the time of day, weather, season, and artistic edits.
+	</td>
+	</tr>
+
+	<td height="40" class="Space"> 
+
+	<tr>
+	<td>
+	<h2>Code & Data</h2>
+		Our code and data are available at <a href="https://github.com/luanfujun/deep-photo-styletransfer">Github</a>. 
+	</td>
+	</tr>
+
+	<td height="40" class="Space"> 
+
+	<tr>
+	<td>
+	<h2>Supplemental materials</h2>
+		We provide additional results and discussion in the <a href="style-cvpr17-supp.pdf">supplemental document</a>.
+	</td>
+	</tr>
+
+	<td height="40" class="Space"> 
+
+	<tr>
+	<td>
+	<h2 id=press>Press</h2>
+		[<a href="http://www.theverge.com/2017/3/30/15124466/ai-photo-style-transfer-deep-neural-nets-adobe">The Verge</a>] &nbsp;&nbsp;
+		[<a href="https://petapixel.com/2017/03/29/cornelladobe-show-copy-color-lighting-one-photo-another/">PetaPixel</a>] &nbsp;&nbsp;
+		[<a href="https://www.dpreview.com/news/1239108915/researchers-create-method-for-photorealistic-prisma-style-effects">DPreview</a>] &nbsp;&nbsp;
+		[<a href="https://www.slashgear.com/adobe-cornell-ai-transfers-one-photos-style-to-another-31480436/">Slash Gear</a>] &nbsp;&nbsp;
+		[<a href="http://appleinsider.com/articles/17/03/30/adobe-research-creates-ai-tool-for-transferring-image-styles-between-photographs">AppleInsider</a>] &nbsp;&nbsp;
+		[<a href="http://www.digitaltrends.com/photography/adobe-cornell-deep-photo-style-trasfer/">Digital Trends</a>] &nbsp;&nbsp;
+		[<a href="http://bgr.com/2017/03/31/new-photoshop-features-adobe-deep-photo-style-transfer/">BGR</a>] &nbsp;&nbsp;
+		[<a href="http://lifeboat.com/blog/2017/04/adobes-experimental-app-copies-one-photos-style-to-another">Lifeboat</a>] &nbsp;&nbsp;	
+		[<a href="https://www.engadget.com/2017/03/30/adobes-experimental-app-copies-one-photos-style-to-another/">Engadget</a>] &nbsp;&nbsp;	
+		[<a href="http://newatlas.com/adobe-makes-progress-ai-retouching/48690/">New Atlas</a>] &nbsp;&nbsp;	
+		[<a href="https://thenextweb.com/dd/2017/03/30/adobe-figured-out-a-way-to-copy-realistic-photo-styles-from-one-picture-to-another/">TNW</a>] &nbsp;&nbsp;	
+		[<a href="http://www.techspot.com/news/68734-adobe-new-photography-tool-you-copy-styling-another.html">TechSpot</a>] &nbsp;&nbsp;	
+		[<a href="http://www.ubergizmo.com/2017/03/adobe-copy-photo-style-to-another/">Ubergizmo</a>] &nbsp;&nbsp;	
+		[<a href="http://news.softpedia.com/news/adobe-s-deep-photo-style-transfer-tech-is-and-works-exactly-how-it-sounds-514425.shtml">Softpedia</a>] &nbsp;&nbsp;	
+	</td>
+	</tr>
+
+	<td height="40" class="Space"> 
+
+	<tr>
+	<td>
+	<h2>Acknowledgement</h2>
+		We thank Leon Gatys, Fr&eacute;do Durand, Aaron Hertzmann as well as the anonymous reviewers for their valuable discussions. We thank Fuzhang Wu for generating results using "<a href="https://hal.archives-ouvertes.fr/file/index/docid/937188/filename/Content-Based_Color_Transfer.pdf">Content-based colour transfer</a>". This research is supported by a Google Faculty Research Award, and NSF awards IIS 1617861 and 1513967.
+	</td>
+	</tr>
+
+	<td height="40" class="Space"> 
+
+</table>
+
+
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <tr><td align="center">Copyright &copy; 2015-2017 Fujun Luan</td></tr>
+</table>     
+
+</div>
+<noscript>
+<div style="display: block; font-family: Verdana, Geneva, Arial; font-size: 10px"></div>
+</HTML>

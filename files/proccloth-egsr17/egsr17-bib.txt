@@ -1,0 +1,10 @@
+@inproceedings{luan2017fiber,
+  title={Fiber-Level On-the-Fly Procedural Textiles},
+  author={Luan, Fujun and Zhao, Shuang and Bala, Kavita},
+  booktitle={Computer Graphics Forum},
+  volume={36},
+  number={4},
+  pages={123--135},
+  year={2017},
+  organization={Wiley Online Library}
+}

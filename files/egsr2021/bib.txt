@@ -1,0 +1,6 @@
+@article{luan2021unified,
+    author    = {Luan, Fujun and Zhao, Shuang and Bala, Kavita and Dong, Zhao},
+    title     = {Unified Shape and SVBRDF Recovery using Differentiable Monte Carlo Rendering},
+    journal   = {ArXiv},
+    year      = {2021},
+  }

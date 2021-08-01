@@ -1,0 +1,6 @@
+@article{luan2018deep,
+  title={Deep Painterly Harmonization},
+  author={Luan, Fujun and Paris, Sylvain and Shechtman, Eli and Bala, Kavita},
+  journal={arXiv preprint arXiv:1804.03189},
+  year={2018}
+}
