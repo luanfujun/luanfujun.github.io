@@ -7,6 +7,11 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font: 20px -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight: bold;
+}
+
 a {
   /*color: #a3392c;*/
   color: #333;
