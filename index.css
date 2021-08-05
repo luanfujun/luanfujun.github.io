@@ -8,7 +8,8 @@ body {
 }
 
 a {
-  color: #a3392c;
+  /*color: #a3392c;*/
+  color: #333;
   text-decoration: none;
 }
 
