@@ -1,7 +1,7 @@
 body {
   background-color: #000;
   width: auto;
-  font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font:16px -apple-system, 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   color:#666;
   font-weight:400;
   margin: 0 auto;
