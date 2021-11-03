@@ -34,7 +34,7 @@ img {
 .avatar {
     width:128px;
     margin: 0px;
-    border: 2px solid #666;
+    border: 3px solid #bab2aa;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -45,6 +45,10 @@ ul {
 	list-style-type: square;
 }
 
+/*.rounded-circle {
+  border-radius: 50% !important;
+}
+ */
 .MainContainer {
   width: 970px;
   min-height: 1000px;
