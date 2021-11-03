@@ -45,10 +45,10 @@ ul {
 	list-style-type: square;
 }
 
-.rounded-circle {
+/*.rounded-circle {
   border-radius: 50% !important;
 }
- 
+ */
 .MainContainer {
   width: 970px;
   min-height: 1000px;
