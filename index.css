@@ -2,7 +2,6 @@ body {
   background-color: #000;
   width: auto;
   font: 12px -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  color:#666;
   font-weight:400;
   margin: 0 auto;
 }
@@ -13,8 +12,7 @@ h2 {
 }
 
 a {
-  color: #a3392c;
-  /*color: #333;*/
+  color: #000;
   text-decoration: none;
 }
 
@@ -45,10 +43,6 @@ ul {
 	list-style-type: square;
 }
 
-/*.rounded-circle {
-  border-radius: 50% !important;
-}
- */
 .MainContainer {
   width: 970px;
   min-height: 1000px;
