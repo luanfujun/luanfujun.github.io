@@ -1,6 +1,11 @@
 @article{luan2021unified,
-    author    = {Luan, Fujun and Zhao, Shuang and Bala, Kavita and Dong, Zhao},
-    title     = {Unified Shape and SVBRDF Recovery using Differentiable Monte Carlo Rendering},
-    journal   = {ArXiv},
-    year      = {2021},
-  }
+	author = {Luan, Fujun and Zhao, Shuang and Bala, Kavita and Dong, Zhao},
+	title = {Unified Shape and SVBRDF Recovery using Differentiable Monte Carlo Rendering},
+	journal = {Computer Graphics Forum},
+	volume = {40},
+	number = {4},
+	pages = {101-113},
+	doi = {https://doi.org/10.1111/cgf.14344},
+	year = {2021}
+}
+
