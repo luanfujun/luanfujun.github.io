@@ -1,9 +1,0 @@
-@article{luan2020langevin,
-  title = {Langevin Monte Carlo Rendering with Gradient-based Adaptation},
-  author = {Luan, Fujun and Zhao, Shuang and Bala, Kavita and Gkioulekas, Ioannis},
-  journal = {ACM Trans. Graph.},
-  volume = {39},
-  number = {4},
-  year = {2020},
-  publisher = {ACM},
-}

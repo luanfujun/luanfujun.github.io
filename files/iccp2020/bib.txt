@@ -1,7 +1,0 @@
-@inproceedings{Che2020,
-  title={Towards Learning-based Inverse Subsurface Scattering},
-  author={Che, Chengqian and Luan, Fujun and Zhao, Shuang and Bala, Kavita and Gkioulekas, Ioannis},
-  booktitle={Proceedings of the International Conference on Computational Photography (ICCP)},
-  year={2020},
-  organization={IEEE}
-}
