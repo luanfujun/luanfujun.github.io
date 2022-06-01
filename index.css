@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #EEE;
+  color: #b43120;
 }
 
 .name {
@@ -27,6 +27,7 @@ a:hover {
 
 img {
   border-radius: 10px;
+  border: 2px solid #000;
 }
 
 .avatar {
