@@ -30,22 +30,13 @@ img {
   border: 2px solid #000;
 }
 
-.avatar {
-    width:128px;
-    margin: 0px;
-    border: 3px solid #EEE;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-}
-
 ul {
 	list-style-position: outside;
 	list-style-type: square;
 }
 
 .MainContainer {
-  width: 980px;
+  width: 970px;
   min-height: 1000px;
   margin: 0 auto;
   padding: 0;
