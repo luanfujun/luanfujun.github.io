@@ -6,7 +6,7 @@
 </HEAD>
 
 <div class="MainContainer">
-<table width="800" border="0">
+<table width="960" border="0">
 	<tr><td align="center"><p class=banner> CVPR 2017 </p></td></tr>
     <tr><td align="center"><h1>Deep Photo Style Transfer</h1></td></tr>
  
@@ -32,13 +32,13 @@
    		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/style/tar13.png" height='174' width='260'>
    		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/final_results/best13_t_1000.png" height='174' width='260'>
    	</td></tr>
-   	<tr><td align="center">
+<!--    	<tr><td align="center">
    		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/input/in39.png" height='174' width='260'>
    		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/style/tar39.png" height='174' width='260'>
    		<img src="https://raw.githubusercontent.com/luanfujun/deep-photo-styletransfer/master/examples/final_results/best39_t_1000.png" height='174' width='260'>
-   	</td></tr>
+   	</td></tr> -->
    	<tr>
-   	<td>Given an input image (first column), and a reference image (second column), our approach transfers the style of the reference image onto the input image while preserving the photorealism (third column).</td>
+   	<td align="center">Given an input image (first column), and a reference image (second column), our approach transfers the style of the reference image onto the input image while preserving the photorealism (third column).</td>
    	</tr>
 
    	<td height="40" class="Space"> 
@@ -61,7 +61,7 @@
 	<td>
 	<h2>Publication</h2>
 		Fujun Luan, Sylvain Paris, Eli Shechtman, and Kavita Bala, Deep Photo Style Transfer, to appear in CVPR 2017
-		<div>Paper: High-resolution <a href="https://www.dropbox.com/s/bu23dyat4oefeqy/style-cvpr17-highres.pdf?dl=0">PDF</a> (59 MB) | Low-resolution <a href="style-cvpr17.pdf">PDF</a> (6.6 MB) </div>
+		<div align="justify">Paper: High-resolution <a href="https://www.dropbox.com/s/bu23dyat4oefeqy/style-cvpr17-highres.pdf?dl=0">PDF</a> (59 MB) | Low-resolution <a href="style-cvpr17.pdf">PDF</a> (6.6 MB) </div>
 	</td>
 	</tr>
 
@@ -70,7 +70,9 @@
 	<tr>
 	<td>
 	<h2>Abstract</h2>
+	<div align="justify">
 		This paper introduces a deep-learning approach to photographic style transfer that handles a large variety of image content while faithfully transferring the reference style. Our approach builds upon the recent work on painterly transfer that separates style from the content of an image by considering different layers of a neural network. However, as is, this approach is not suitable for photorealistic style transfer. Even when both the input and reference images are photographs, the output still exhibits distortions reminiscent of a painting. Our contribution is to constrain the transformation from the input to the output to be locally affine in colorspace, and to express this constraint as a custom fully differentiable energy term. We show that this approach successfully suppresses distortion and yields satisfying photorealistic style transfers in a broad variety of scenarios, including transfer of the time of day, weather, season, and artistic edits.
+	</div>
 	</td>
 	</tr>
 
@@ -129,7 +131,7 @@
 
 
 <table cellSpacing=0 cellPadding=0 width="100%" border=0>
-    <tr><td align="center">Copyright &copy; 2015-2017 Fujun Luan</td></tr>
+    <tr><td align="center">Copyright &copy; 2015 Fujun Luan</td></tr>
 </table>     
 
 </div>
