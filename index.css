@@ -16,6 +16,10 @@ a:hover {
   text-decoration: none;
 }
 
+/*tr, td, {
+  padding: 6px;
+}*/
+
 .name {
   font-size: 36px;
   font-weight: bold;
@@ -23,12 +27,12 @@ a:hover {
 
 img {
   border-radius: 10px;
-  border: 2px solid #000;
+  /*border: 2px solid #000;*/
 }
 
 video {
   border-radius: 10px;
-  border: 2px solid #000;
+  /*border: 2px solid #000;*/
 }
 
 ul {
@@ -38,7 +42,7 @@ ul {
 
 .MainContainer {
   width: 970px;
-  min-height: 1000px;
+  min-height: 600;
   margin: 0 auto;
   padding: 0;
   background: #FFF;
