@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #b43120;
+  color: #AAA;
   text-decoration: none;
 }
 
@@ -22,12 +22,10 @@ a:hover {
 }
 
 img {
-  border-radius: 10px;
   border: 1px solid #000;
 }
 
 video {
-  border-radius: 10px;
   border: 1px solid #000;
 }
 
@@ -42,8 +40,6 @@ ul {
   margin: 0 auto;
   padding: 0;
   background: #FFF;
-  border: 0px solid;
-  border-radius: 10px;
 }
 
 
