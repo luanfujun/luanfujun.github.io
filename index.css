@@ -13,7 +13,16 @@ a {
 
 a:hover {
   color: #800020;
+  font-weight: bold;
+}
+
+.profile {
+/*  color: #6F7632;*/
   text-decoration: none;
+}
+
+.profile:hover {
+  color: #6F7632;
   font-weight: bold;
 }
 
