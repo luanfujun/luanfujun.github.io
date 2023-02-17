@@ -39,6 +39,15 @@ ul {
 	list-style-type: square;
 }
 
+.avatar {
+  width:160;
+  margin: 0px;
+  border: 0px solid #800020;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+
 .MainContainer {
   width: 970px;
   min-height: 600;
