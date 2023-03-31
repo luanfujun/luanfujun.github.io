@@ -1,5 +1,6 @@
 body {
-  background-color: #000;
+  background-color: #eee;
+  background-image: url("images/bg.jpg");
   width: auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
@@ -52,8 +53,10 @@ ul {
   width: 970px;
   min-height: 600;
   margin: 0 auto;
-  padding: 0;
-  background: #FFF;
+  padding: 6px;
+  background-color: #ffffff;
+  border-left: 1px solid #888888;
+  border-right: 1px solid #888888;
 }
 
 
