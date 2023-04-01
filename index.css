@@ -1,6 +1,6 @@
 body {
-  background-color: #eee;
-  background-image: url("images/bg.jpg");
+  background-color: #000;
+/*  background-image: url("images/bg.jpg");*/
   width: auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
@@ -53,7 +53,7 @@ ul {
   width: 970px;
   min-height: 600;
   margin: 0 auto;
-  padding: 6px;
+  padding: 0px;
   background-color: #ffffff;
   border-left: 1px solid #888888;
   border-right: 1px solid #888888;
