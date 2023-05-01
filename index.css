@@ -16,7 +16,7 @@ h2 {
 /* Increase font size for mobile devices using relative units */
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
