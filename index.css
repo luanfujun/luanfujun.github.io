@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
 }
 
+/* Default font size for h1 using relative units */
+h1 {
+  font-size: 2rem;
+}
 /* Default font size for h2 using relative units */
 h2 {
   font-size: 1.5rem;
@@ -15,6 +19,10 @@ h2 {
 
 /* Increase font size for mobile devices using relative units */
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.0rem;
+  }
+
   h2 {
     font-size: 1.5rem;
   }
