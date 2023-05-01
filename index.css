@@ -10,11 +10,11 @@ body {
 
 /* Default font size for h1 using relative units */
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 /* Default font size for h2 using relative units */
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* Increase font size for mobile devices using relative units */
@@ -24,7 +24,7 @@ h2 {
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
