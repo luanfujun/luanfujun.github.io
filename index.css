@@ -4,7 +4,17 @@ body {
   width: auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
+  font-size: 14px;
   margin: 0 auto;
+}
+
+h2 { 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: auto;
+  margin-top: 0; 
+  margin-bottom: 0;
 }
 
 a {
