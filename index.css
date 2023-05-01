@@ -8,13 +8,16 @@ body {
   margin: 0 auto;
 }
 
-h2 { 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  width: auto;
-  margin-top: 0; 
-  margin-bottom: 0;
+/* Default font size for h2 using relative units */
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Increase font size for mobile devices using relative units */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 a {
