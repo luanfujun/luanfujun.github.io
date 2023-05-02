@@ -2,7 +2,7 @@ body {
   background-color: #000;
   width: auto;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin: 0 auto;
 }
@@ -19,14 +19,14 @@ h2 {
 }
 
 /* Increase font size for mobile devices using relative units */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2.0rem;
+@media only screen and (max-device-width: 768px) {
+  body h1 {
+    font-size: 2.0rem !important;
     margin-top: 0; /* Remove the top margin */
   }
 
-  h2 {
-    font-size: 1.6rem;
+  body h2 {
+    font-size: 1.75rem !important;
     margin-bottom: 0; /* Remove the bottom margin */
   }
 }
