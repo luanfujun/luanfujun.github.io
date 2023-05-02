@@ -1,6 +1,5 @@
 body {
   background-color: #000;
-/*  background-image: url("images/bg.jpg");*/
   width: auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
@@ -11,20 +10,24 @@ body {
 /* Default font size for h1 using relative units */
 h1 {
   font-size: 1.5rem;
+  margin-top: 0; /* Remove the top margin */
 }
 /* Default font size for h2 using relative units */
 h2 {
   font-size: 1.2rem;
+  margin-bottom: 0; /* Remove the bottom margin */
 }
 
 /* Increase font size for mobile devices using relative units */
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.0rem;
+    margin-top: 0; /* Remove the top margin */
   }
 
   h2 {
     font-size: 1.6rem;
+    margin-bottom: 0; /* Remove the bottom margin */
   }
 }
 
@@ -57,12 +60,12 @@ video {
 }
 
 ul {
-	list-style-position: outside;
-	list-style-type: square;
+  list-style-position: outside;
+  list-style-type: square;
 }
 
 .avatar {
-  width:160;
+  width:160px;
   margin: 0px;
   border: 0px solid #800020;
   border-radius: 100%;
@@ -72,7 +75,7 @@ ul {
 
 .MainContainer {
   width: 970px;
-  min-height: 600;
+  min-height: 600px;
   margin: 0 auto;
   padding: 0px;
   background-color: #ffffff;
