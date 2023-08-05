@@ -60,8 +60,22 @@ video {
 }
 
 ul {
+  margin: 0;
   list-style-position: outside;
   list-style-type: square;
+}
+
+/* Reset the default padding and margins for list items */
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; /* Adjust this value to fit your preference */
+}
+
+/* Reset the default padding and margins for table rows and data */
+tr, td {
+  margin: 0;
+  padding: 0;
 }
 
 .avatar {
