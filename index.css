@@ -9,25 +9,30 @@ body {
 
 /* Default font size for h1 using relative units */
 h1 {
-  font-size: 1.5rem;
-  margin-top: 0; /* Remove the top margin */
+  font-size: 1.75rem;
+  margin-top: 0;
+  /* Remove the top margin */
 }
+
 /* Default font size for h2 using relative units */
 h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0; /* Remove the bottom margin */
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  /* Remove the bottom margin */
 }
 
 /* Increase font size for mobile devices using relative units */
 @media only screen and (max-device-width: 768px) {
   body h1 {
-    font-size: 2.0rem !important;
-    margin-top: 0; /* Remove the top margin */
+    font-size: 2.75rem !important;
+    margin-top: 0;
+    /* Remove the top margin */
   }
 
   body h2 {
-    font-size: 1.75rem !important;
-    margin-bottom: 0; /* Remove the bottom margin */
+    font-size: 2.25rem !important;
+    margin-bottom: 0;
+    /* Remove the bottom margin */
   }
 }
 
@@ -37,16 +42,6 @@ a {
 }
 
 a:hover {
-  color: #800020;
-  font-weight: bold;
-}
-
-.profile {
-/*  color: #6F7632;*/
-  text-decoration: none;
-}
-
-.profile:hover {
   color: #6F7632;
   font-weight: bold;
 }
@@ -65,36 +60,22 @@ ul {
   list-style-type: square;
 }
 
-/* Reset the default padding and margins for list items */
 li {
   margin: 0;
   padding: 0;
-  line-height: 1.5; /* Adjust this value to fit your preference */
-}
-
-/* Reset the default padding and margins for table rows and data */
-tr, td {
-  margin: 0;
-  padding: 0;
+  line-height: 1.5;
 }
 
 .avatar {
-  width:160px;
+  width: 270px;
   margin: 0px;
-  border: 0px solid #800020;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
+  border: 0px solid;
 }
 
 .MainContainer {
-  width: 970px;
+  width: 960px;
   min-height: 600px;
-  margin: 0 auto;
-  padding: 0px;
+  margin: 1px auto;
+  padding: 1px;
   background-color: #ffffff;
-  border-left: 1px solid #888888;
-  border-right: 1px solid #888888;
 }
-
-
