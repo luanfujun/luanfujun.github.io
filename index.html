@@ -1,433 +1,547 @@
 <!doctype html>
-<html>
+<html lang="en">
 
-<head lang="en">
+<head>
     <title>Fujun Luan</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
-    <link rel="icon" type="image/jpg" href="images/icon.jpg"/>
+
+    <link rel="icon" type="image/jpg" href="images/icon.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
     <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=0.1">
-    <link rel="stylesheet" type="text/css" id="defaultstyle" href="index.css" media="all"/>
+    <link rel="stylesheet" type="text/css" id="defaultstyle" href="index.css" media="all" />
 </head>
 
 <div class="MainContainer">
-<table width="970" align="center" border="0">
-    <tr>
-        <td>
-            <table width="960">
-                <td>
-                    <h1>Fujun Luan</h1>
+    <table width="960" align="center" border="0">
+        <table width="960">
+            <tr>
+                <h1>Fujun Luan</h1>
+                <td valign="top" style="vertical-align: top;">
                     <div align="justify">
-                            I am a research scientist at <a href="https://research.adobe.com/">Adobe Research</a>. I received my Ph.D. from <a href="https://www.cornell.edu/">Cornell University</a> in 2021, under the supervision of Prof. <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>. During Ph.D. study, I was awarded the <a href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/">2017 Adobe Research Fellowship</a>. Before that, I obtained my bachelor degree from <a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a> in 2015, advised by Prof. <a href="https://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>.<br><br> 
+                        I am a research scientist at <a href="https://research.adobe.com/">Adobe Research</a>. I
+                        received my Ph.D. from <a href="https://www.cornell.edu/">Cornell University</a> in 2021, under
+                        the supervision of Prof. <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>. During Ph.D.
+                        study, I was awarded the <a
+                            href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/">2017 Adobe
+                            Research Fellowship</a>. Before that, I obtained my bachelor degree from <a
+                            href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a> in 2015, advised by
+                        Prof. <a href="https://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>.<br><br>
 
-                            My research interests include various topics in computer graphics and computer vision, with a recent focus on inverse graphics, differentiable rendering, and neural rendering.<br><br>
-                            [ <a class="profile" href="mailto:fluan@adobe.com"><i class="fa-solid fa-envelope"></i> Email</a> ]
-                            [ <a class="profile" href="https://scholar.google.com/citations?user=NLxrmYQAAAAJ"><i class="fa-brands fa-google"></i> Google Scholar</a> ]
-                            [ <a class="profile" href="http://github.com/luanfujun"><i class="fa-brands fa-github"></i> GitHub</a> ]
-                            [ <a class="profile" href="https://www.linkedin.com/in/luanfujun/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> ]
-                            [ <a class="profile" href="files/Fujun_CV.pdf"><i class="fa-solid fa-file-pdf"></i> CV</a> ]
+                        My research interests include various topics in computer graphics and computer vision, with a
+                        recent focus on inverse graphics, differentiable rendering, and neural rendering.<br><br>
+                        [ <a href="mailto:fluan@adobe.com"><i class="fa-solid fa-envelope"></i>
+                            Email</a> ]
+                        [ <a href="https://scholar.google.com/citations?user=NLxrmYQAAAAJ"><i
+                                class="fa-brands fa-google"></i> Google Scholar</a> ]
+                        [ <a href="http://github.com/luanfujun"><i class="fa-brands fa-github"></i>
+                            GitHub</a> ]
+                        [ <a href="https://www.linkedin.com/in/luanfujun/"><i class="fa-brands fa-linkedin"></i>
+                            LinkedIn</a> ]
+                        [ <a href="files/Fujun_CV.pdf"><i class="fa-solid fa-file-pdf"></i> CV</a> ]
                     </div>
-                    <td width="3"/>
-                    <td>
-                        <img class="avatar" src="./images/profile.jpeg"/>
-                    </td>
-                </td>   
-            </table>
-        </td>
-    </tr>
+                </td>
+                <td width="1" />
+                <td valign="top" style="vertical-align: top;">
+                    <img class="avatar" src="./images/profile.jpg" />
+                </td>
+            </tr>
+        </table>
 
-    <tr>
-        <td><h2>News</h2></td>
-    </tr>
-    <tr>
-        <td>
+
+        <tr>
+            <h2>News</h2>
+        </tr>
+        <tr>
             <ul>
-              <li>[08/2023] Three papers conditionally accepted to <a href="https://sa2023.siggraph.org/">SIGGRAPH Asia 2023</a>.</li>
+                <li>[08/2023] Three papers conditionally accepted to <a href="https://sa2023.siggraph.org/">SIGGRAPH
+                        Asia 2023</a>.</li>
             </ul>
-        </td> 
-    </tr> 
+        </tr>
 
-    <tr>
-        <td><h2>Publications</h2></td>
-    </tr>
-
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><video id="NeuSample" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/NeuSample.mp4" type="video/mp4"></video></td>
-            <script>
-                document.getElementById("NeuSample").playbackRate = 0.7;
-                document.getElementById('NeuSample').play();
-            </script>
-            <td width="760" class="publications">
-                <b>NeuSample: Importance Sampling for Neural Materials</b><br>
-                <a href="https://bingxu.tech/">Bing Xu</a>, <a href="https://lwwu2.github.io/">Liwen Wu</a>, <a href="http://miloshasan.net/">Miloš Hašan</a>, Fujun Luan, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a><br><br>
-                      SIGGRAPH 2023
-                      [ <a href="https://cseweb.ucsd.edu/~viscomp/projects/neusample/">Project</a> ]
-                      [ <a href="files/siggraph2023/NeuSample.pdf">Paper</a> ]
+        <tr>
+            <td>
+                <h2>Publications</h2>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><video id="PaletteNeRF" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/PaletteNeRF.mp4" type="video/mp4"></video></td>
-            <script>
-                document.getElementById("PaletteNeRF").playbackRate = 0.75;
-                document.getElementById('PaletteNeRF').play();
-            </script>
-            <td width="760" class="publications">
-                <b>PaletteNeRF: Palette-based Appearance Editing of Neural Radiance Fields</b><br>
-                <a href="https://zhengfeikuang.com/">Zhengfei Kuang</a>, Fujun Luan, <a href="https://sai-bi.github.io/">Sai Bi</a>,  <a href="https://zhixinshu.github.io/">Zhixin Shu</a>, <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>, <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a><br><br>
-                      CVPR 2023
-                      [ <a href="https://palettenerf.github.io/">Project</a> ]
-                      [ <a href="https://arxiv.org/abs/2212.10699">Paper</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><video id="NeuSample" width="160" playsinline="" autoplay="" loop="" preload=""
+                            muted="">
+                            <source src="images/NeuSample.mp4" type="video/mp4">
+                        </video></td>
+                    <script>
+                        document.getElementById("NeuSample").playbackRate = 0.7;
+                        document.getElementById('NeuSample').play();
+                    </script>
+                    <td width="760" class="publications">
+                        <b>NeuSample: Importance Sampling for Neural Materials</b><br>
+                        <a href="https://bingxu.tech/">Bing Xu</a>, <a href="https://lwwu2.github.io/">Liwen Wu</a>, <a
+                            href="http://miloshasan.net/">Miloš Hašan</a>, Fujun Luan, <a
+                            href="http://iliyan.com/">Iliyan Georgiev</a>, <a
+                            href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a
+                            href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a><br><br>
+                        SIGGRAPH 2023
+                        [ <a href="https://cseweb.ucsd.edu/~viscomp/projects/neusample/">Project</a> ]
+                        [ <a href="files/siggraph2023/NeuSample.pdf">Paper</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-                <td width="160"><video id="iisdf" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/iisdf.mp4" type="video/mp4"></video></td>
-                <script>
-                    document.getElementById('iisdf').play();
-                </script>
-            <td width="760" class="publications">
-                <b>I<sup>2</sup>-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs</b><br>
-                <a href="https://jingsenzhu.github.io/">Jingsen Zhu</a>, <a href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>, Qi Ye, Fujun Luan, Jifan Li, Dianbing Xi, Lisha Wang, Rui Tang, Wei Hua, Hujun Bao, <a href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><video id="PaletteNeRF" width="160" playsinline="" autoplay="" loop="" preload=""
+                            muted="">
+                            <source src="images/PaletteNeRF.mp4" type="video/mp4">
+                        </video></td>
+                    <script>
+                        document.getElementById("PaletteNeRF").playbackRate = 0.75;
+                        document.getElementById('PaletteNeRF').play();
+                    </script>
+                    <td width="760" class="publications">
+                        <b>PaletteNeRF: Palette-based Appearance Editing of Neural Radiance Fields</b><br>
+                        <a href="https://zhengfeikuang.com/">Zhengfei Kuang</a>, Fujun Luan, <a
+                            href="https://sai-bi.github.io/">Sai Bi</a>, <a href="https://zhixinshu.github.io/">Zhixin
+                            Shu</a>, <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>, <a
+                            href="http://www.kalyans.org/">Kalyan Sunkavalli</a><br><br>
+                        CVPR 2023
+                        [ <a href="https://palettenerf.github.io/">Project</a> ]
+                        [ <a href="https://arxiv.org/abs/2212.10699">Paper</a> ]
+                    </td>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><video id="iisdf" width="160" playsinline="" autoplay="" loop="" preload=""
+                            muted="">
+                            <source src="images/iisdf.mp4" type="video/mp4">
+                        </video></td>
+                    <script>
+                        document.getElementById('iisdf').play();
+                    </script>
+                    <td width="760" class="publications">
+                        <b>I<sup>2</sup>-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural
+                            SDFs</b><br>
+                        <a href="https://jingsenzhu.github.io/">Jingsen Zhu</a>, <a
+                            href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>, Qi Ye, Fujun Luan, Jifan Li,
+                        Dianbing Xi, Lisha Wang, Rui Tang, Wei Hua, Hujun Bao, <a
+                            href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a><br><br>
                         CVPR 2023
                         [ <a href="https://jingsenzhu.github.io/i2-sdf/">Project</a> ]
                         [ <a href="https://arxiv.org/abs/2303.07634">Paper</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr> 
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-                <!-- <td width="160"><video id="skin" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/skin.mp4" type="video/mp4"></video></td>
+        <tr>
+            <td>
+                <table width="960">
+                    <!-- <td width="160"><video id="skin" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/skin.mp4" type="video/mp4"></video></td>
                 <script>
                     document.getElementById("skin").playbackRate = 0.75;
                     document.getElementById('skin').play();
                 </script> -->
-            <td width="160"><img src="images/skin_opera.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>A Biophysically-based Skin Model for Heterogeneous Volume Rendering</b><br>
-                Qi Wang, Fujun Luan, <a href="https://brabbitdousha.github.io/">Yuxin Dai</a>, <a href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>, <a href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>, <a href="https://person.zju.edu.cn/en/0093140/">Hujun Bao</a><br><br>
+                    <td width="160"><img src="images/skin_opera.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>A Biophysically-based Skin Model for Heterogeneous Volume Rendering</b><br>
+                        Qi Wang, Fujun Luan, <a href="https://brabbitdousha.github.io/">Yuxin Dai</a>, <a
+                            href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>, <a
+                            href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>, <a
+                            href="https://person.zju.edu.cn/en/0093140/">Hujun Bao</a><br><br>
                         CVM 2023
                         [ <a href="files/cvm2023/skin_paper.pdf">Paper</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr> 
-    
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/img_DROT.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Differentiable Rendering using RGBXY Derivatives and Optimal Transport</b><br>
-                <a href="https://jkxing.github.io/academic/">Jiankai Xing</a>, Fujun Luan, <a href="https://sites.cs.ucsb.edu/~lingqi/">Ling-Qi Yan</a>, Xuejun Hu, Houde Qian, <a href="https://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a><br><br>
-                      SIGGRAPH Asia 2022
-                      [ <a href="https://jkxing.github.io/academic/publication/DROT">Project</a> ]
-                      [ <a href="files/sia2022/DROT.pdf">Paper</a> ]
-                      [ <a href="files/sia2022/DROT_supp.pdf">Supplementary</a> ]
-                      [ <a href="https://github.com/jkxing/DROT">Code</a> ]
+        </tr>
+
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/img_DROT.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Differentiable Rendering using RGBXY Derivatives and Optimal Transport</b><br>
+                        <a href="https://jkxing.github.io/academic/">Jiankai Xing</a>, Fujun Luan, <a
+                            href="https://sites.cs.ucsb.edu/~lingqi/">Ling-Qi Yan</a>, Xuejun Hu, Houde Qian, <a
+                            href="https://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a><br><br>
+                        SIGGRAPH Asia 2022
+                        [ <a href="https://jkxing.github.io/academic/publication/DROT">Project</a> ]
+                        [ <a href="files/sia2022/DROT.pdf">Paper</a> ]
+                        [ <a href="files/sia2022/DROT_supp.pdf">Supplementary</a> ]
+                        [ <a href="https://github.com/jkxing/DROT">Code</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/inv_render_sig_asia22.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Learning-based Inverse Rendering of Complex Indoor Scenes with Differentiable Monte Carlo Raytracing</b><br>
-                <a href="https://jingsenzhu.github.io/">Jingsen Zhu</a>, Fujun Luan, <a href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>, Zihao Lin, Zhihua Zhong, Dianbing Xi, Jiaxiang Zheng, Rui Tang, <a href="https://person.zju.edu.cn/en/0093140/">Hujun Bao</a>, <a href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a><br><br>
-                      SIGGRAPH Asia 2022
-                      [ <a href="https://jingsenzhu.github.io/invrend/">Project</a> ]
-                      [ <a href="https://jingsenzhu.github.io/invrend/files/final_paper.pdf">Paper</a> ]
-                      [ <a href="https://jingsenzhu.github.io/invrend/files/supplementary.pdf">Supplementary</a> ]
-                      [ <a href="https://interiorverse.github.io/">Dataset</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/inv_render_sig_asia22.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Learning-based Inverse Rendering of Complex Indoor Scenes with Differentiable Monte Carlo
+                            Raytracing</b><br>
+                        <a href="https://jingsenzhu.github.io/">Jingsen Zhu</a>, Fujun Luan, <a
+                            href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>, Zihao Lin, Zhihua Zhong, Dianbing
+                        Xi, Jiaxiang Zheng, Rui Tang, <a href="https://person.zju.edu.cn/en/0093140/">Hujun Bao</a>, <a
+                            href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a><br><br>
+                        SIGGRAPH Asia 2022
+                        [ <a href="https://jingsenzhu.github.io/invrend/">Project</a> ]
+                        [ <a href="https://jingsenzhu.github.io/invrend/files/final_paper.pdf">Paper</a> ]
+                        [ <a href="https://jingsenzhu.github.io/invrend/files/supplementary.pdf">Supplementary</a> ]
+                        [ <a href="https://interiorverse.github.io/">Dataset</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/reparamSDF.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Differentiable Rendering of Neural SDFs through Reparameterization</b><br>
-                <a href="https://people.csail.mit.edu/sbangaru/">Sai Praveen Bangaru</a>, <a href="http://mgharbi.com">Michaël Gharbi</a>, <a href="https://cseweb.ucsd.edu/~tzli/">Tzu-Mao Li</a>, Fujun Luan, <a href="http://www.kalyans.org">Kalyan Sunkavalli</a>, <a href="http://miloshasan.net/">Miloš Hašan</a>, <a href="https://sai-bi.github.io/">Sai Bi</a>, <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a href="http://www.gilbertbernstein.com">Gilbert Bernstein</a>, <a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a><br><br>
-                      SIGGRAPH Asia 2022
-                      [ <a href="https://people.csail.mit.edu/sbangaru/projects/dsdf-2022/index.html">Project</a> ]
-                      [ <a href="https://arxiv.org/abs/2206.05344">Paper</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/reparamSDF.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Differentiable Rendering of Neural SDFs through Reparameterization</b><br>
+                        <a href="https://people.csail.mit.edu/sbangaru/">Sai Praveen Bangaru</a>, <a
+                            href="http://mgharbi.com">Michaël Gharbi</a>, <a
+                            href="https://cseweb.ucsd.edu/~tzli/">Tzu-Mao Li</a>, Fujun Luan, <a
+                            href="http://www.kalyans.org">Kalyan Sunkavalli</a>, <a href="http://miloshasan.net/">Miloš
+                            Hašan</a>, <a href="https://sai-bi.github.io/">Sai Bi</a>, <a
+                            href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a
+                            href="http://www.gilbertbernstein.com">Gilbert Bernstein</a>, <a
+                            href="http://people.csail.mit.edu/fredo/">Frédo Durand</a><br><br>
+                        SIGGRAPH Asia 2022
+                        [ <a href="https://people.csail.mit.edu/sbangaru/projects/dsdf-2022/index.html">Project</a> ]
+                        [ <a href="https://arxiv.org/abs/2206.05344">Paper</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><video id="ARF" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/ARF.mp4" type="video/mp4"></video></td>
-            <script>
-                document.getElementById('ARF').play();
-            </script>
-            <td width="760" class="publications">
-                <b>ARF: Artistic Radiance Fields</b><br>
-                <a href="https://kai-46.github.io/website/">Kai Zhang</a>, <a href="https://home.ttic.edu/~nickkolkin/home.html">Nick Kolkin</a>, <a href="https://sai-bi.github.io/">Sai Bi</a>, Fujun Luan, <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>, <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><br><br>
-                      ECCV 2022
-                      [ <a href="https://www.cs.cornell.edu/projects/arf/">Project</a> ]
-                      [ <a href="https://arxiv.org/abs/2206.06360">Paper</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><video id="ARF" width="160" playsinline="" autoplay="" loop="" preload="" muted="">
+                            <source src="images/ARF.mp4" type="video/mp4">
+                        </video></td>
+                    <script>
+                        document.getElementById('ARF').play();
+                    </script>
+                    <td width="760" class="publications">
+                        <b>ARF: Artistic Radiance Fields</b><br>
+                        <a href="https://kai-46.github.io/website/">Kai Zhang</a>, <a
+                            href="https://home.ttic.edu/~nickkolkin/home.html">Nick Kolkin</a>, <a
+                            href="https://sai-bi.github.io/">Sai Bi</a>, Fujun Luan, <a
+                            href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a
+                            href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>, <a
+                            href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><br><br>
+                        ECCV 2022
+                        [ <a href="https://www.cs.cornell.edu/projects/arf/">Project</a> ]
+                        [ <a href="https://arxiv.org/abs/2206.06360">Paper</a> ]
 
-                      <br>
-                      <span style="font-size:10pt">
-                          This work was demoed at Adobe MAX Sneaks 2022 as <a href="https://youtu.be/vfMsVxnq-gc?t=3279">Artistic Scenes</a>.
-                      </span>
+                        <br>
+                        <span style="font-size:10pt">
+                            This work was demoed at Adobe MAX Sneaks 2022 as <a
+                                href="https://youtu.be/vfMsVxnq-gc?t=3279">Artistic Scenes</a>.
+                        </span>
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/inverseSSS-sig22.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Reconstructing Translucent Objects using Differentiable Rendering</b><br>
-                <a href="https://www.cs.cornell.edu/~xideng/">Xi Deng</a>, Fujun Luan, <a href="https://www.graphics.cornell.edu/~bjw/">Bruce Walter</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="https://www.cs.cornell.edu/~srm/">Steve Marschner</a><br><br>
-                      SIGGRAPH 2022
-                      [ <a href="https://www.cs.cornell.edu/~xideng/deng22dsss.html">Project</a> ] [ <a href="files/siggraph2022/deng22dsss.pdf">Paper</a> ]
-                      [ <a href="files/siggraph2022/deng22dsss_sup.pdf">Supplementary</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/inverseSSS-sig22.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Reconstructing Translucent Objects using Differentiable Rendering</b><br>
+                        <a href="https://www.cs.cornell.edu/~xideng/">Xi Deng</a>, Fujun Luan, <a
+                            href="https://www.graphics.cornell.edu/~bjw/">Bruce Walter</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a
+                            href="https://www.cs.cornell.edu/~srm/">Steve Marschner</a><br><br>
+                        SIGGRAPH 2022
+                        [ <a href="https://www.cs.cornell.edu/~xideng/deng22dsss.html">Project</a> ] [ <a
+                            href="files/siggraph2022/deng22dsss.pdf">Paper</a> ]
+                        [ <a href="files/siggraph2022/deng22dsss_sup.pdf">Supplementary</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/NeuMIP2.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Rendering Neural Materials on Curved Surfaces</b><br>
-                <a href="https://www.alexku.me/">Alexandr Kuznetsov</a>, <a href="https://www.linkedin.com/in/xuezheng-wang/">Xuezheng Wang</a>, <a href="https://research.adobe.com/person/krishna-mullia/">Krishna Mullia</a>, Fujun Luan, <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a href="http://miloshasan.net/">Miloš Hašan</a>, <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a><br><br>
-                      SIGGRAPH 2022
-                      [ <a href="https://cseweb.ucsd.edu/~viscomp/projects/CurvedNeuralMaterials/">Project</a> ]
-                      [ <a href="files/siggraph2022/CurvedNeuralMaterials.pdf">Paper</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/NeuMIP2.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Rendering Neural Materials on Curved Surfaces</b><br>
+                        <a href="https://www.alexku.me/">Alexandr Kuznetsov</a>, <a
+                            href="https://www.linkedin.com/in/xuezheng-wang/">Xuezheng Wang</a>, <a
+                            href="https://research.adobe.com/person/krishna-mullia/">Krishna Mullia</a>, Fujun Luan, <a
+                            href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>, <a
+                            href="http://miloshasan.net/">Miloš Hašan</a>, <a
+                            href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a><br><br>
+                        SIGGRAPH 2022
+                        [ <a href="https://cseweb.ucsd.edu/~viscomp/projects/CurvedNeuralMaterials/">Project</a> ]
+                        [ <a href="files/siggraph2022/CurvedNeuralMaterials.pdf">Paper</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/IRON_teaser.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>IRON: Inverse Rendering by Optimizing Neural SDFs and Materials from Photometric Images</b><br>
-                <a href="https://kai-46.github.io/website/">Kai Zhang</a>, Fujun Luan, <a href="https://zhengqili.github.io/">Zhengqi Li</a>, <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><br><br>
-                CVPR 2022 (oral)
-                      [ <a href="https://kai-46.github.io/IRON-website/">Project</a> ]
-                      [ <a href="files/cvpr2022/paper.pdf">Paper</a> ]
-                      [ <a href="https://drive.google.com/file/d/1DRZHypeZcHaecaGKeZnGcCj7gpUq_tno/view?usp=sharing">Video</a> ]
-                      [ <a href="files/cvpr2022/supp.pdf">Supplementary</a> ]
-                      [ <a href="https://arxiv.org/abs/2204.02232">arXiv</a> ]
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/IRON_teaser.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>IRON: Inverse Rendering by Optimizing Neural SDFs and Materials from Photometric
+                            Images</b><br>
+                        <a href="https://kai-46.github.io/website/">Kai Zhang</a>, Fujun Luan, <a
+                            href="https://zhengqili.github.io/">Zhengqi Li</a>, <a
+                            href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><br><br>
+                        CVPR 2022 (oral)
+                        [ <a href="https://kai-46.github.io/IRON-website/">Project</a> ]
+                        [ <a href="files/cvpr2022/paper.pdf">Paper</a> ]
+                        [ <a
+                            href="https://drive.google.com/file/d/1DRZHypeZcHaecaGKeZnGcCj7gpUq_tno/view?usp=sharing">Video</a>
+                        ]
+                        [ <a href="files/cvpr2022/supp.pdf">Supplementary</a> ]
+                        [ <a href="https://arxiv.org/abs/2204.02232">arXiv</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><video id="FB_work" width="160" playsinline="" autoplay="" loop="" preload="" muted=""><source src="images/FB_work.mp4" type="video/mp4"></video></td>
-            <script>
-                document.getElementById("FB_work").playbackRate = 1.0;
-                document.getElementById('FB_work').play();
-            </script>
-            <td width="760" class="publications">
-                <b>Unified Shape and SVBRDF Recovery using Differentiable Monte Carlo Rendering</b><br>
-                Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="http://flycooler.com/">Zhao Dong</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><video id="FB_work" width="160" playsinline="" autoplay="" loop="" preload=""
+                            muted="">
+                            <source src="images/FB_work.mp4" type="video/mp4">
+                        </video></td>
+                    <script>
+                        document.getElementById("FB_work").playbackRate = 1.0;
+                        document.getElementById('FB_work').play();
+                    </script>
+                    <td width="760" class="publications">
+                        <b>Unified Shape and SVBRDF Recovery using Differentiable Monte Carlo Rendering</b><br>
+                        Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="http://flycooler.com/">Zhao
+                            Dong</a><br><br>
                         EGSR 2021
-                      [ <a href="https://luanfujun.github.io/InverseMeshSVBRDF/">Project</a> ]
-                      [ <a href="files/egsr2021/paper.pdf">Paper</a> ]
-                      [ <a href="https://youtu.be/u9HqKGqvJhQ?t=8404">Video</a> ]
-                      [ <a href="files/egsr2021/supp.pdf">Supplementary</a> ]
-                      [ <a href="https://arxiv.org/abs/2103.15208">arXiv</a> ]
+                        [ <a href="https://luanfujun.github.io/InverseMeshSVBRDF/">Project</a> ]
+                        [ <a href="files/egsr2021/paper.pdf">Paper</a> ]
+                        [ <a href="https://youtu.be/u9HqKGqvJhQ?t=8404">Video</a> ]
+                        [ <a href="files/egsr2021/supp.pdf">Supplementary</a> ]
+                        [ <a href="https://arxiv.org/abs/2103.15208">arXiv</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/cvpr2021.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>PhySG: Inverse Rendering with Spherical Gaussians for Physics-based Material Editing and Relighting</b><br>
-                <a href="https://kai-46.github.io/website/">Kai Zhang</a><sup>*</sup>, Fujun Luan<sup>*</sup>, <a href="https://www.cs.cornell.edu/~qqw/">Qianqian Wang</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a> (* equal contribution)<br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/cvpr2021.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>PhySG: Inverse Rendering with Spherical Gaussians for Physics-based Material Editing and
+                            Relighting</b><br>
+                        <a href="https://kai-46.github.io/website/">Kai Zhang</a><sup>*</sup>, Fujun Luan<sup>*</sup>,
+                        <a href="https://www.cs.cornell.edu/~qqw/">Qianqian Wang</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a
+                            href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a> (* equal contribution)<br><br>
                         CVPR 2021
-                      [ <a href="https://kai-46.github.io/PhySG-website/">Project</a> ]
-                      [ <a href="https://arxiv.org/abs/2104.00674">Paper</a> ]
-                      [ <a href="https://kai-46.github.io/PhySG-website/files/real-world_results.mp4">Video</a> ]
-                      [ <a href="files/cvpr2021/cvpr2021_poster.pdf">Poster</a> ]
-                      [ <a href="https://github.com/Kai-46/PhySG">Code & Data</a> ]
+                        [ <a href="https://kai-46.github.io/PhySG-website/">Project</a> ]
+                        [ <a href="https://arxiv.org/abs/2104.00674">Paper</a> ]
+                        [ <a href="https://kai-46.github.io/PhySG-website/files/real-world_results.mp4">Video</a> ]
+                        [ <a href="files/cvpr2021/cvpr2021_poster.pdf">Poster</a> ]
+                        [ <a href="https://github.com/Kai-46/PhySG">Code & Data</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/siggraph2020.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Langevin Monte Carlo Rendering with Gradient-based Adaptation</b><br>
-                Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="https://www.cs.cmu.edu/~igkioule/">Ioannis Gkioulekas</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/siggraph2020.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Langevin Monte Carlo Rendering with Gradient-based Adaptation</b><br>
+                        Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a
+                            href="https://www.cs.cmu.edu/~igkioule/">Ioannis Gkioulekas</a><br><br>
                         SIGGRAPH 2020
-                      [ <a href="https://research.cs.cornell.edu/langevin-mcmc/">Project</a> ]
-                      [ <a href="files/siggraph2020/paper.pdf">Paper</a> ]
-                      [ <a href="files/siggraph2020/supplementary.pdf">Supplementary</a> ]
-                      [ <a href="https://langevin-mcmc.s3.us-east-2.amazonaws.com/interactive-viewer/index.html">Interactive Test Suite</a> ]
-                      [ <a href="https://github.com/luanfujun/Langevin-MCMC">Code & Data</a> ]
+                        [ <a href="https://research.cs.cornell.edu/langevin-mcmc/">Project</a> ]
+                        [ <a href="files/siggraph2020/paper.pdf">Paper</a> ]
+                        [ <a href="files/siggraph2020/supplementary.pdf">Supplementary</a> ]
+                        [ <a href="https://langevin-mcmc.s3.us-east-2.amazonaws.com/interactive-viewer/index.html">Interactive
+                            Test Suite</a> ]
+                        [ <a href="https://github.com/luanfujun/Langevin-MCMC">Code & Data</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/iccp2020.png" width="160"></td>
-            <td width="760" class="publications">
-                <b>Towards Learning-based Inverse Subsurface Scattering</b><br>
-                <a href="https://brucect2.github.io/">Chengqian Che</a>, Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="https://www.cs.cmu.edu/~igkioule/">Ioannis Gkioulekas</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/iccp2020.png" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Towards Learning-based Inverse Subsurface Scattering</b><br>
+                        <a href="https://brucect2.github.io/">Chengqian Che</a>, Fujun Luan, <a
+                            href="https://shuangz.com/">Shuang Zhao</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita
+                            Bala</a>, <a href="https://www.cs.cmu.edu/~igkioule/">Ioannis Gkioulekas</a><br><br>
                         ICCP 2020
-                      [ <a href="http://imaging.cs.cmu.edu/inverse_transport_networks/">Project</a> ]
-                      [ <a href="files/iccp2020/paper.pdf">Paper</a> ]
-                      [ <a href="http://imaging.cs.cmu.edu/inverse_transport_networks/videos/iccp_video_reduced.mp4">Video</a> ]
-                      [ <a href="files/iccp2020/supplementary.pdf">Supplementary</a> ]
-                      [ <a href="https://github.com/cmu-ci-lab/inverseTransportNetworks">Code & Data</a> ]
+                        [ <a href="http://imaging.cs.cmu.edu/inverse_transport_networks/">Project</a> ]
+                        [ <a href="files/iccp2020/paper.pdf">Paper</a> ]
+                        [ <a
+                            href="http://imaging.cs.cmu.edu/inverse_transport_networks/videos/iccp_video_reduced.mp4">Video</a>
+                        ]
+                        [ <a href="files/iccp2020/supplementary.pdf">Supplementary</a> ]
+                        [ <a href="https://github.com/cmu-ci-lab/inverseTransportNetworks">Code & Data</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/painting-arxiv18.png" width="160"></td>
-            <td width="760" class="publications">
-                <b>Deep Painterly Harmonization</b><br>
-                Fujun Luan, <a href="http://people.csail.mit.edu/sparis/">Sylvain Paris</a>, <a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/painting-arxiv18.png" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Deep Painterly Harmonization</b><br>
+                        Fujun Luan, <a href="http://people.csail.mit.edu/sparis/">Sylvain Paris</a>, <a
+                            href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
                         EGSR 2018
-                      [ <a href="files/painting-egsr18/deeppainting.pdf">Paper</a> ]
-                      [ <a href="https://drive.google.com/open?id=1UM55hbM80lxjLNbOv3Q9Vpj_Zw48X0GY">Video</a> ]
-                      [ <a href="https://arxiv.org/abs/1804.03189">arXiv</a> ]
-                      [ <a href="https://github.com/luanfujun/deep-painterly-harmonization">GitHub (6.1k stars)</a> ]
+                        [ <a href="files/painting-egsr18/deeppainting.pdf">Paper</a> ]
+                        [ <a href="https://drive.google.com/open?id=1UM55hbM80lxjLNbOv3Q9Vpj_Zw48X0GY">Video</a> ]
+                        [ <a href="https://arxiv.org/abs/1804.03189">arXiv</a> ]
+                        [ <a href="https://github.com/luanfujun/deep-painterly-harmonization">GitHub (6.1k stars)</a> ]
 
-                      <br>
-                      <span style="font-size:10pt">
-                      Press coverage: 
-                            <a href="https://www.vice.com/en/article/a3mqy8/this-ai-can-insert-your-selfie-into-famous-paintings">Vice</a>,
-                            <a href="https://www.iflscience.com/this-freetouse-ai-can-put-you-into-any-painting-50982">IFLScience</a>,
-                            <a href="https://www.filo.news/tecnologia/Una-IA-fusiona-imagenes-con-obras-maestras-de-forma-realista-20181220-0018.html">Filo.news</a>,
-                            <a href="https://www.slashcam.de/news/single/Kuenstliche-Intelligenz-zur-automatisierten-Fotomon-14362.html">slashCAM</a>,
+                        <br>
+                        <span style="font-size:10pt">
+                            Press coverage:
+                            <a
+                                href="https://www.vice.com/en/article/a3mqy8/this-ai-can-insert-your-selfie-into-famous-paintings">Vice</a>,
+                            <a
+                                href="https://www.iflscience.com/this-freetouse-ai-can-put-you-into-any-painting-50982">IFLScience</a>,
+                            <a
+                                href="https://www.filo.news/tecnologia/Una-IA-fusiona-imagenes-con-obras-maestras-de-forma-realista-20181220-0018.html">Filo.news</a>,
+                            <a
+                                href="https://www.slashcam.de/news/single/Kuenstliche-Intelligenz-zur-automatisierten-Fotomon-14362.html">slashCAM</a>,
                             <a href="https://www.leiphone.com/category/ai/G09wwNYYejYbEvgM.html">雷锋网</a>,
-                            <a href="https://onedio.com/haber/sanatta-teknoloji-bu-ucretsiz-yapay-zeka-sayesinde-istediginiz-resmin-bir-parcasi-olabilirsiniz-853841">Onedio</a>,
+                            <a
+                                href="https://onedio.com/haber/sanatta-teknoloji-bu-ucretsiz-yapay-zeka-sayesinde-istediginiz-resmin-bir-parcasi-olabilirsiniz-853841">Onedio</a>,
                             <a href="http://www.astronomer.rocks/news/articleView.html?idxno=87828">이웃집과학자</a>,
                             <a href="https://nplus1.ru/news/2018/12/18/deep-painterly-harmonization">N+1</a>,
                             <a href="https://www.qbitai.com/2018/04/464.html">量子位</a>,
                             <a href="https://www.youtube.com/watch?v=fklY2nH7AJo">Two Minute Papers</a>.
-                      </span>
+                        </span>
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/proccloth-egsr17.jpg" width="160"></td>
-            <td width="760" class="publications">
-                <b>Fiber-Level On-the-Fly Procedural Textiles</b><br>
-                Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/proccloth-egsr17.jpg" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Fiber-Level On-the-Fly Procedural Textiles</b><br>
+                        Fujun Luan, <a href="https://shuangz.com/">Shuang Zhao</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
                         EGSR 2017
-                      [ <a href="http://www.cs.cornell.edu/projects/ctcloth/#proc-egsr17">Project</a> ]
-                      [ <a href="files/proccloth-egsr17/proccloth-egsr17.pdf">Paper</a> ]
-                      [ <a href="https://www.dropbox.com/s/d7rwhxg8y2gnebd/procyarn2_egsr.mp4?dl=0">Video</a> ]
-                      [ <a href="https://www.dropbox.com/s/388hdilmg1m99ra/proccloth-egsr17-v2.pptx?dl=0">Slides</a> ]
-                      [ <a href="files/proccloth-egsr17/4K_teaser.png">4K Rendering</a> ]
+                        [ <a href="http://www.cs.cornell.edu/projects/ctcloth/#proc-egsr17">Project</a> ]
+                        [ <a href="files/proccloth-egsr17/proccloth-egsr17.pdf">Paper</a> ]
+                        [ <a href="https://www.dropbox.com/s/d7rwhxg8y2gnebd/procyarn2_egsr.mp4?dl=0">Video</a> ]
+                        [ <a href="https://www.dropbox.com/s/388hdilmg1m99ra/proccloth-egsr17-v2.pptx?dl=0">Slides</a> ]
+                        [ <a href="files/proccloth-egsr17/4K_teaser.png">4K Rendering</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/style-cvpr17.png" width="160"></td>
-            <td width="760" class="publications">
-                <b>Deep Photo Style Transfer</b><br>
-                Fujun Luan, <a href="http://people.csail.mit.edu/sparis/">Sylvain Paris</a>, <a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/style-cvpr17.png" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Deep Photo Style Transfer</b><br>
+                        Fujun Luan, <a href="http://people.csail.mit.edu/sparis/">Sylvain Paris</a>, <a
+                            href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
                         CVPR 2017
-                      [ <a href="files/style-cvpr17/style-cvpr17.html">Project</a> ]
-                      [ <a href="files/style-cvpr17/style-cvpr17.pdf">Paper</a> ]
-                      [ <a href="files/style-cvpr17/style-cvpr17-supp.pdf">Supplementary</a> ]
-                      [ <a href="https://arxiv.org/abs/1703.07511">arXiv</a> ]
-                      [ <a href="https://github.com/luanfujun/deep-photo-styletransfer">GitHub (9.9k stars) </a> ]
-                      [ <a href="files/style-cvpr17/style-cvpr17-poster.pdf">Poster</a> ]
+                        [ <a href="files/style-cvpr17/style-cvpr17.html">Project</a> ]
+                        [ <a href="files/style-cvpr17/style-cvpr17.pdf">Paper</a> ]
+                        [ <a href="files/style-cvpr17/style-cvpr17-supp.pdf">Supplementary</a> ]
+                        [ <a href="https://arxiv.org/abs/1703.07511">arXiv</a> ]
+                        [ <a href="https://github.com/luanfujun/deep-photo-styletransfer">GitHub (9.9k stars) </a> ]
+                        [ <a href="files/style-cvpr17/style-cvpr17-poster.pdf">Poster</a> ]
 
-                      <br>
-                      <span style="font-size:10pt">
-                      Press coverage: 
-                            <a href="http://www.theverge.com/2017/3/30/15124466/ai-photo-style-transfer-deep-neural-nets-adobe">The Verge</a>,
-                            <a href="https://petapixel.com/2017/03/29/cornelladobe-show-copy-color-lighting-one-photo-another/">PetaPixel</a>,
-                            <a href="https://www.dpreview.com/news/1239108915/researchers-create-method-for-photorealistic-prisma-style-effects">DPreview</a>,
-                            <a href="https://www.slashgear.com/adobe-cornell-ai-transfers-one-photos-style-to-another-31480436/">SlashGear</a>,
-                            <a href="http://appleinsider.com/articles/17/03/30/adobe-research-creates-ai-tool-for-transferring-image-styles-between-photographs">AppleInsider</a>, 
-                            <a href="http://www.digitaltrends.com/photography/adobe-cornell-deep-photo-style-trasfer/">Digital Trends</a>,
-                            <a href="http://bgr.com/2017/03/31/new-photoshop-features-adobe-deep-photo-style-transfer/">BGR</a>,
-                            <a href="http://lifeboat.com/blog/2017/04/adobes-experimental-app-copies-one-photos-style-to-another">Lifeboat</a>,   
-                            <a href="https://www.engadget.com/2017/03/30/adobes-experimental-app-copies-one-photos-style-to-another/">Engadget</a>,   
-                            <a href="http://newatlas.com/adobe-makes-progress-ai-retouching/48690/">New Atlas</a>,    
-                            <a href="https://thenextweb.com/dd/2017/03/30/adobe-figured-out-a-way-to-copy-realistic-photo-styles-from-one-picture-to-another/">TNW</a>,   
-                            <a href="http://www.techspot.com/news/68734-adobe-new-photography-tool-you-copy-styling-another.html">TechSpot</a>,   
-                            <a href="http://www.ubergizmo.com/2017/03/adobe-copy-photo-style-to-another/">Ubergizmo</a>,  
-                            <a href="http://news.softpedia.com/news/adobe-s-deep-photo-style-transfer-tech-is-and-works-exactly-how-it-sounds-514425.shtml">Softpedia</a>,
-                            <a href="https://news.cornell.edu/stories/2017/05/cornell-cis-and-adobe-collaboration-creates-ai-photo-tool">Cornell Chronicle</a>,
-                            <a href="https://www.extremetech.com/extreme/247152-new-application-layered-neural-nets-make-photoshop-freaky-good">ExtremeTech</a>,
-                            <a href="https://phys.org/news/2017-05-cornell-cis-adobe-collaboration-artificial.html">Phys.org</a>,
+                        <br>
+                        <span style="font-size:10pt">
+                            Press coverage:
+                            <a
+                                href="http://www.theverge.com/2017/3/30/15124466/ai-photo-style-transfer-deep-neural-nets-adobe">The
+                                Verge</a>,
+                            <a
+                                href="https://petapixel.com/2017/03/29/cornelladobe-show-copy-color-lighting-one-photo-another/">PetaPixel</a>,
+                            <a
+                                href="https://www.dpreview.com/news/1239108915/researchers-create-method-for-photorealistic-prisma-style-effects">DPreview</a>,
+                            <a
+                                href="https://www.slashgear.com/adobe-cornell-ai-transfers-one-photos-style-to-another-31480436/">SlashGear</a>,
+                            <a
+                                href="http://appleinsider.com/articles/17/03/30/adobe-research-creates-ai-tool-for-transferring-image-styles-between-photographs">AppleInsider</a>,
+                            <a href="http://www.digitaltrends.com/photography/adobe-cornell-deep-photo-style-trasfer/">Digital
+                                Trends</a>,
+                            <a
+                                href="http://bgr.com/2017/03/31/new-photoshop-features-adobe-deep-photo-style-transfer/">BGR</a>,
+                            <a
+                                href="http://lifeboat.com/blog/2017/04/adobes-experimental-app-copies-one-photos-style-to-another">Lifeboat</a>,
+                            <a
+                                href="https://www.engadget.com/2017/03/30/adobes-experimental-app-copies-one-photos-style-to-another/">Engadget</a>,
+                            <a href="http://newatlas.com/adobe-makes-progress-ai-retouching/48690/">New Atlas</a>,
+                            <a
+                                href="https://thenextweb.com/dd/2017/03/30/adobe-figured-out-a-way-to-copy-realistic-photo-styles-from-one-picture-to-another/">TNW</a>,
+                            <a
+                                href="http://www.techspot.com/news/68734-adobe-new-photography-tool-you-copy-styling-another.html">TechSpot</a>,
+                            <a href="http://www.ubergizmo.com/2017/03/adobe-copy-photo-style-to-another/">Ubergizmo</a>,
+                            <a
+                                href="http://news.softpedia.com/news/adobe-s-deep-photo-style-transfer-tech-is-and-works-exactly-how-it-sounds-514425.shtml">Softpedia</a>,
+                            <a
+                                href="https://news.cornell.edu/stories/2017/05/cornell-cis-and-adobe-collaboration-creates-ai-photo-tool">Cornell
+                                Chronicle</a>,
+                            <a
+                                href="https://www.extremetech.com/extreme/247152-new-application-layered-neural-nets-make-photoshop-freaky-good">ExtremeTech</a>,
+                            <a
+                                href="https://phys.org/news/2017-05-cornell-cis-adobe-collaboration-artificial.html">Phys.org</a>,
                             <a href="https://www.youtube.com/watch?v=HTUxsrO-P_8">Two Minute Papers</a>.
-                      </span>
+                        </span>
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/procyarn16.png" width="160"></td>
-            <td width="760" class="publications">
-                <b>Fitting Procedural Yarn Models for Realistic Cloth Rendering</b><br>
-                <a href="https://shuangz.com/">Shuang Zhao</a>, Fujun Luan, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/procyarn16.png" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Fitting Procedural Yarn Models for Realistic Cloth Rendering</b><br>
+                        <a href="https://shuangz.com/">Shuang Zhao</a>, Fujun Luan, <a
+                            href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a><br><br>
                         SIGGRAPH 2016
                         [ <a href="http://www.cs.cornell.edu/projects/ctcloth/#proc-sig15">Project</a> ]
                         [ <a href="files/procyarn-sg16/procyarn-sg16.pdf">Paper</a> ]
@@ -437,36 +551,38 @@
 
                         <br>
                         <span style="font-size:10pt">
-                            This work was patented as <a href="https://patents.google.com/patent/US10410380B2/">U.S. Patent No. 10,410,380</a>. 
+                            This work was patented as <a href="https://patents.google.com/patent/US10410380B2/">U.S.
+                                Patent No. 10,410,380</a>.
                         </span>
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr>
+        </tr>
 
-    <tr>
-        <td>
-            <table width="960">
-            <td width="160"><img src="images/anisotropic-cvm15.png" width="160"></td>
-            <td width="760" class="publications">
-                <b>Anisotropic Density Estimation for Photon Mapping</b><br>
-                Fujun Luan, <a href="https://winmad.github.io/">Lifan Wu</a>, <a href="https://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a><br><br>
+        <tr>
+            <td>
+                <table width="960">
+                    <td width="160"><img src="images/anisotropic-cvm15.png" width="160"></td>
+                    <td width="760" class="publications">
+                        <b>Anisotropic Density Estimation for Photon Mapping</b><br>
+                        Fujun Luan, <a href="https://winmad.github.io/">Lifan Wu</a>, <a
+                            href="https://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a><br><br>
                         CVM 2015
                         [ <a href="http://link.springer.com/article/10.1007%2Fs41095-015-0010-8">Paper</a> ]
                         [ <a href="files/cvm2015/poster_cvm2015_anisotropicpm.pdf">Poster</a> ]
+                    </td>
+                </table>
             </td>
-            </table>
-        </td>
-    </tr> 
-</table>
+        </tr>
+    </table>
 
 
-<table cellSpacing=0 cellPadding=0 width="99%" border=0>
-    <tr>
-        <td align="center" style="font-size:10pt">&copy; 2015-2023. All rights reserved.</td>
-    </tr>
-</table>
+    <table cellSpacing=0 cellPadding=0 width="99%" border=0>
+        <tr>
+            <td align="center" style="font-size:10pt">&copy; 2015-2023. All rights reserved.</td>
+        </tr>
+    </table>
 
 </div>
+
 </html>
- 
