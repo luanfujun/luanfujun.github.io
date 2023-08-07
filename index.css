@@ -24,13 +24,13 @@ h2 {
 /* Increase font size for mobile devices using relative units */
 @media only screen and (max-device-width: 768px) {
   body h1 {
-    font-size: 2.75rem !important;
+    font-size: 2.0rem !important;
     margin-top: 0;
     /* Remove the top margin */
   }
 
   body h2 {
-    font-size: 2.25rem !important;
+    font-size: 1.35rem !important;
     margin-bottom: 0;
     /* Remove the bottom margin */
   }
