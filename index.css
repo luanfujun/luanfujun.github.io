@@ -14,6 +14,10 @@ h1 {
   /* Remove the top margin */
 }
 
+.h1-style span {
+  color: #1f4d8e;
+}
+
 /* Default font size for h2 using relative units */
 h2 {
   font-size: 1.1rem;
@@ -42,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #6F7632;
+  color: #1f4d8e;
   font-weight: bold;
 }
 
