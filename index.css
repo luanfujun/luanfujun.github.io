@@ -15,7 +15,8 @@ h1 {
 }
 
 .h1-style span {
-  color: #1f4d8e;
+  /*  color: #1f4d8e;*/
+  color: #d83320;
 }
 
 /* Default font size for h2 using relative units */
@@ -47,7 +48,7 @@ a {
 
 a:hover {
   color: #d83320;
-  font-weight: bold;
+  /*  font-weight: bold;*/
 }
 
 img {
@@ -68,12 +69,6 @@ li {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-}
-
-.avatar {
-  width: 270px;
-  margin: 0px;
-  border: 0px solid;
 }
 
 .MainContainer {
