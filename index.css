@@ -46,17 +46,43 @@ a {
   text-decoration: underline;
 }
 
+/* Add spacing between icons */
+.icon-links {
+  text-align: left;
+  /* Center the content */
+}
+
+.icon-links a {
+  margin-right: 6px;
+}
+
+.icon-links a:last-child {
+  margin-right: 0;
+  /* Remove margin for the last icon */
+}
+
+.icon-links a::after {
+  content: "|";
+  /* Add "|" after each icon */
+  margin-left: 6px;
+}
+
+.icon-links a:last-child::after {
+  content: "";
+  /* Remove "|" after the last icon */
+}
+
 a:hover {
   color: #1f4d8e;
   /*  font-weight: bold;*/
 }
 
 img {
-/*  border: 1px solid #000;*/
+  /*  border: 1px solid #000;*/
 }
 
 video {
-/*  border: 1px solid #000;*/
+  /*  border: 1px solid #000;*/
 }
 
 ul {
